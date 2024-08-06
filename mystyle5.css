@@ -1,0 +1,13 @@
+.container h3{
+    border: 5px solid rgb(224, 68, 165);
+    background-color: rgba(215, 197, 197,0.5);
+    width: 1500px;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: rgb(73, 3, 61);
+    
+}

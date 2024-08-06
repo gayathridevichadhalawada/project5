@@ -1,0 +1,22 @@
+.register {
+    border: 5px solid rgb(101, 25, 121);
+    background-color: rgba(218, 153, 196, 0.5);
+    width: 600px;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding-left: 20;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.register input[type="submit"] {
+    background-color: #4c54af;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.register input[type="submit"]:hover {
+    background-color: #8e623e;
+}

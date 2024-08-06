@@ -1,0 +1,9 @@
+body ,h1,h4,h3,ul,li{ margin: 5; padding: 5;}
+h1{color: rgb(243, 238, 238);}
+h3{color: rgb(234, 234, 234);}
+h4{color: rgb(234, 234, 234);}
+body{font-family: 'Courier New', Courier, monospace;}
+.s{
+    margin: auto;
+    
+}

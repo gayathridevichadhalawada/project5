@@ -1,0 +1,63 @@
+<html>
+<head>
+    <style>
+        body {
+          background-image: url('powder.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+        }
+         @media screen and (min-width:550px){
+                body{
+                   
+                    background-color:rgb(110, 94, 23);
+                }
+            }
+        </style>
+      </style>
+    <link rel="stylesheet" href="Mystyle2.css">
+    <link rel="stylesheet" href="mystyle3.css">
+   
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="HOME.html">Home</a></li>
+            <li><a href="ABOUT.html">About</a></li>
+            <li><a href="signin.html">Signin</a></li>
+            <li><a href="LOGINPAGE.html">login</a></li>
+            <li><a href="CONTACTUS.html">Contact</a></li>
+        </ul>
+    </nav>
+    <head>
+        <style>
+        .gaya3{
+            margin:20px;
+            width: 210px;
+            height: 250px;
+            background: url("walk.gif")no-repeat rgb(228, 196, 208);
+            position: relative;
+           animation: repeatit 15s linear 0s infinite alternate;
+        }
+        @keyframes repeatit{
+            from{left:0%}
+            to{left:100%}
+        }
+    </style>
+   </head>
+   <body><div class="gaya3"></div></body>
+   <form action="LoginSuccess.html"> 
+       <div class="s">
+            <h1>LOGIN PAGE</h1><br>
+            <form action="LOGINPAGE.html" >
+                <input type="text" name="username" placeholder="Username" required> <br><br>
+                <input type="password" name="password" placeholder="Password" required> <br><br>
+                <input type="submit" value="submit" class="custom-submit">
+            </form>
+        </div>
+    </form>
+    <footer>
+        <p>&copy; 2024 My MyCompany. ALL rights reserved.</p>
+    </footer>
+</body>
+</html>
